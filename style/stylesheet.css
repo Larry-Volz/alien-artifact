@@ -1,0 +1,79 @@
+@font-face {
+    font-family: 'crop_circle_dingbatsregular';
+    src: url('../fonts/cropding-webfont.woff2') format('woff2'),
+         url('../fonts/cropding-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    background-color: black;
+    color: white;
+    font-family: 'Orbitron', sans-serif;
+    padding: 40px;
+    
+    
+} 
+
+
+p.alienScript {
+    font-family: crop_circle_dingbatsregular;
+    color: cornflowerblue;
+    text-align: center;
+}
+
+h1 {
+    font-size: 4.7rem;
+    letter-spacing: 10px;
+    line-height: 140%;
+    color: blue;
+}
+
+h1.alienScript { 
+    font-family: crop_circle_dingbatsregular;
+    font-size: 500%;
+    letter-spacing: 10px;
+    line-height: 140%;
+    color: white;
+}
+
+p {
+    font-size: 1rem;
+    letter-spacing: 5px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.greeting {
+    font-family: crop_circle_dingbatsregular;
+    font-size: 500%;
+    letter-spacing: 10px;
+    line-height: 140%;
+   
+}
+
+#greeting1, #greeting2, #greeting3, #greeting4 {
+    color: white;
+}
+
+#greet-box {
+    border-color: white;
+    border-width: 2px;
+}
+
+#date-box {
+    border-width: 1px; 
+    border-color: white; 
+    border-style: solid;
+    border-radius: 1%;
+}
+
+select, select option {
+    font-size: 4rem;
+    color: white;
+    background-color: black;
+}
