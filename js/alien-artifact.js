@@ -67,7 +67,8 @@ $(function(){
 
             // if win -> win page
             if (answers[0] && answers[1] && answers[2]) {
-                window.location = "win.html";
+                setTimeout(()=> window.location = "win.html", 1000);
+                
             } else {
                 //else -> reset all 
                 setTimeout(()=> reset(), 4000);
