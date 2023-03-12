@@ -8,7 +8,6 @@ $(function(){
     let freqMsg = "analyzing";
     let greetMsg = "analyzing";
     let dateMsg = "analyzing";
-    let color = "blue"
     
     
     // is button clicked?
@@ -64,11 +63,26 @@ $(function(){
 
 
 
-            // start timer  
+            // short timer  
+
+            // if win -> win page
+            if (answers[0] && answers[1] && answers[2]) {
+                window.location = "win.html";
+            } else {
+                //else -> reset all 
+                setTimeout(()=> reset(), 4000);
+            }
+
+
+            
+
            
         })
 
 
-
+function reset(){
+    window.location = "index.html";
+}
+        
 
 })
